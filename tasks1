@@ -1,0 +1,85 @@
+1: Find smallest integer
+
+class SmallestIntegerFinder {
+        findSmallestInt(args) {
+           return Math.min(...args);
+        }
+    }
+
+2: Repeat string
+
+function repeatStr (n, s) {
+  return s.repeat(n);
+}
+
+3: Opposite number
+
+function opposite(number) {
+  return(-number);
+}
+
+4: Multiply
+
+function multiply(a, b){
+return a * b
+}
+
+5: Return Negative
+
+function makeNegative(num) {
+  if (num>0) {
+  return -num;
+  } else {
+    return num;
+  }
+  }
+  
+  6: Reversed Strings
+  
+  function solution(str){
+  return str.split("").reverse().join("");
+}
+
+7: Convert boolean values to strings 'Yes' or 'No'
+
+function boolToWord( bool ){
+  if (bool === true) {
+    return "Yes";
+  } else {
+    return "No";
+  }
+}
+
+8: Convert a Number to a String!
+
+function numberToString(num) {
+  return String(num);
+}
+
+9: Even or Odd
+
+function evenOrOdd(number) {
+  if (number % 2 == 0) {
+     return "Even";
+  } else {
+    return "Odd";
+  }
+}
+
+10: Remove First and Last Character
+
+function removeChar(str){
+ return str.slice(1, str.length-1);
+};
+
+11: Sum of positive
+
+function positiveSum(arr) {
+  let sum = 0;
+    for (let i=0; i<arr.length; i++) {
+      if (arr[i] > 0) 
+      sum += arr[i]   
+  } 
+  return sum;
+}
+
